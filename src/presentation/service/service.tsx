@@ -32,19 +32,19 @@ function ServiceComponent() {
       <section className={styles.serviceList}>
         <CardServiceTag
           description="Transforme sua gestão em nuvem com segurança, eficiência e redução de custos"
-          image="/assets/png/service-cms.png"
+          image="/assets/svg/CMS.svg"
           imgLeftPosition
           title="Teltec Cloud Managed Services (CMS)"
         />
         <CardServiceTag
           description="Gerencie suas soluções Microsoft 365 com segurança e eficiência"
-          image="/assets/png/service-pms.png"
+          image="/assets/svg/PMS.svg"
           imgLeftPosition={false}
           title="Teltec Productivity Managed Services (PMS)"
         />
         <CardServiceTag
           description="Transforme sua gestão em nuvem com segurança, eficiência e redução de custos"
-          image="/assets/png/service-isv.png"
+          image="/assets/svg/ISV.svg"
           imgLeftPosition
           title="ISV Program da Teltec"
         />

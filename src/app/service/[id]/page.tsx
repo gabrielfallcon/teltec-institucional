@@ -8,10 +8,6 @@ import { notFound } from 'next/navigation';
 //   };
 // }
 
-export async function generateStaticParams() {
-  return services.map(service => ({ id: service.id }));
-}
-
 export default async function Page({ params }: { params: { id: string } }) {
   const service = serviceList.find(s => s.id === params.id);
 

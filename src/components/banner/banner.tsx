@@ -9,11 +9,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import styles from './banner.module.scss';
 
-const images = [
-  'assets/jpg/forest.jpg',
-  'assets/jpg/forest.jpg',
-  'assets/jpg/forest.jpg',
-];
+const images = ['assets/svg/2.svg', 'assets/svg/3.svg', 'assets/svg/4.svg'];
 
 function BannerComponent() {
   const swiperRef = useRef<SwiperClass | null>(null);

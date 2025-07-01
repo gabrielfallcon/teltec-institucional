@@ -19,7 +19,7 @@ function SessionClientsComponents() {
 
             <Image
               alt="clientes"
-              src="/assets/png/img-example.png"
+              src="/assets/svg/Clientes.svg"
               width={100}
               height={100}
             />
@@ -36,7 +36,7 @@ function SessionClientsComponents() {
 
             <Image
               alt="certificações"
-              src="/assets/png/img-example.png"
+              src="/assets/svg/Certificacao.svg"
               width={100}
               height={100}
             />
@@ -53,7 +53,7 @@ function SessionClientsComponents() {
 
             <Image
               alt="Horas de projeto"
-              src="/assets/png/img-example.png"
+              src="/assets/svg/Projetos.svg"
               width={100}
               height={100}
             />

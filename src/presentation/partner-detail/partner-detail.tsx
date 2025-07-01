@@ -59,8 +59,8 @@ function PartnerDetailComponent() {
         <ContentTag>
           <div className={clsx(styles.content, styles.serviceContent)}>
             <Image
-              alt="certificações"
-              src="/assets/png/partner-services.png"
+              alt="Nossos Serviços"
+              src="/assets/svg/NossosServicos.svg"
               width={458}
               height={550}
               className={styles.imgService}

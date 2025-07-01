@@ -15,8 +15,8 @@ function SessionService() {
       <ContentTag>
         <div className={clsx(styles.content, styles.serviceContent)}>
           <Image
-            alt="certificações"
-            src="/assets/png/img-example.png"
+            alt="Nossos Serviços"
+            src="/assets/svg/NossosServicos.svg"
             width={458}
             height={550}
             className={styles.imgService}

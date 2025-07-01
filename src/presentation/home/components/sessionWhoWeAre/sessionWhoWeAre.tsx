@@ -7,7 +7,7 @@ function SessionWhoWeAreComponent() {
     <section id="sobre" className={styles.sessionWhoWeAre}>
       <Image
         alt="Quem somos"
-        src="/assets/png/img-example.png"
+        src="/assets/svg/QuemSomos.svg"
         width={671}
         height={100}
         className={styles.imgWhoWeAre}
