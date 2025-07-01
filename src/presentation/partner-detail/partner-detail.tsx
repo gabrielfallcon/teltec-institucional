@@ -54,7 +54,7 @@ function PartnerDetailComponent() {
 
         <ButtonTag label="Falar com especialista" size="md" variant="primary" />
       </section>
-      <section>modules from partner</section>
+      <section></section>
       <section>
         <ContentTag>
           <div className={clsx(styles.content, styles.serviceContent)}>

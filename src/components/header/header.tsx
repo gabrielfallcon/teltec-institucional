@@ -88,11 +88,15 @@ function HeaderComponent() {
   };
 
   const isMenuItemActive = (id: string) => {
-    if (id === 'home' || id === 'sobre') return pathname === '/';
+    // Caso esteja em páginas internas
+    if (pathname.startsWith('/service') && id === 'servicos') return true;
+    if (pathname.startsWith('/blog') && id === 'blog') return true;
+    if (pathname.startsWith('/partner') && id === 'partner') return true;
 
-    if (id === 'servicos') return pathname.startsWith('/service');
-    if (id === 'blog') return pathname.startsWith('/blog');
-    if (id === 'partner') return pathname.startsWith('/partner');
+    // Caso esteja na home, ative apenas se a seção estiver visível via scroll
+    if (pathname === '/') {
+      return activeSection === id;
+    }
 
     return false;
   };
